@@ -203,8 +203,8 @@ async function onGiftClick(index, giftEl) {
     await wait(500);
 
     showOverlay(kid);
-    await wait(150);
-
+    await wait(2000);
+    
     showPhotoFrame();
     await playAudio(kid.voice);
 
